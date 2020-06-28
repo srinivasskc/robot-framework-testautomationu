@@ -1,0 +1,7 @@
+*.jpg
+*.png
+*.log
+.idea
+*.pyc
+*.db
+.DS_Store

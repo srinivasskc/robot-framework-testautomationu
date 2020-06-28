@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200628 09:45:01.202" rpa="false">
+<suite id="s1" name="AdditionTest" source="C:\development\robot-scripts\robot-framework-testautomationu\Tests\AdditionTest.robot">
+<test id="s1-t1" name="Addition Test">
+<kw name="Add">
+<arguments>
+<arg>2</arg>
+<arg>3</arg>
+</arguments>
+<assign>
+<var>${sum}</var>
+</assign>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>${first}+${second}</arg>
+</arguments>
+<assign>
+<var>${value}</var>
+</assign>
+<msg timestamp="20200628 09:45:01.240" level="INFO">${value} = 5</msg>
+<status status="PASS" starttime="20200628 09:45:01.240" endtime="20200628 09:45:01.240"></status>
+</kw>
+<msg timestamp="20200628 09:45:01.240" level="INFO">${sum} = 5</msg>
+<status status="PASS" starttime="20200628 09:45:01.239" endtime="20200628 09:45:01.241"></status>
+</kw>
+<kw name="Should Be Equal As Integers" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>5</arg>
+<arg>${sum}</arg>
+</arguments>
+<msg timestamp="20200628 09:45:01.241" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20200628 09:45:01.241" endtime="20200628 09:45:01.241"></status>
+</kw>
+<status status="PASS" starttime="20200628 09:45:01.239" endtime="20200628 09:45:01.242" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200628 09:45:01.208" endtime="20200628 09:45:01.244"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="AdditionTest">AdditionTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

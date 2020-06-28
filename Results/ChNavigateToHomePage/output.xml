@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200627 05:43:11.539" rpa="false">
+<suite id="s1" name="NavigateToHomePageKeyword" source="C:\development\robot-scripts\robot-framework-testautomationu\Tests\Challenges\NavigateToHomePageKeyword.robot">
+<test id="s1-t1" name="Verify if User Navigates to Home Page">
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>This is to navigate the user to Home Page</arg>
+</arguments>
+<status status="PASS" starttime="20200627 05:43:11.894" endtime="20200627 05:43:11.894"></status>
+</kw>
+<kw name="Navigating to Home Page">
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>This is Keyword section</arg>
+</arguments>
+<status status="PASS" starttime="20200627 05:43:11.895" endtime="20200627 05:43:11.895"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://34.225.240.91/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200627 05:43:11.896" level="INFO">Opening browser 'chrome' to base url 'http://34.225.240.91/'.</msg>
+<status status="PASS" starttime="20200627 05:43:11.896" endtime="20200627 05:43:16.964"></status>
+</kw>
+<status status="PASS" starttime="20200627 05:43:11.895" endtime="20200627 05:43:16.964"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Invoice Manager</arg>
+</arguments>
+<msg timestamp="20200627 05:43:16.986" level="INFO">Current page contains text 'Invoice Manager'.</msg>
+<status status="PASS" starttime="20200627 05:43:16.965" endtime="20200627 05:43:16.987"></status>
+</kw>
+<status status="PASS" starttime="20200627 05:43:11.893" endtime="20200627 05:43:16.987" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200627 05:43:11.544" endtime="20200627 05:43:16.989"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="NavigateToHomePageKeyword">NavigateToHomePageKeyword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

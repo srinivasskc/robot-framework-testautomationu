@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200628 09:18:05.045" rpa="false">
+<suite id="s1" name="LogToConsole" source="C:\development\robot-scripts\robot-framework-testautomationu\Tests\LogToConsole.robot">
+<test id="s1-t1" name="My Test Case">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>srini</arg>
+</arguments>
+<assign>
+<var>${nickname}</var>
+</assign>
+<msg timestamp="20200628 09:18:07.057" level="INFO">${nickname} = srini</msg>
+<status status="PASS" starttime="20200628 09:18:07.057" endtime="20200628 09:18:07.057"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${nickname}</arg>
+</arguments>
+<status status="PASS" starttime="20200628 09:18:07.058" endtime="20200628 09:18:07.058"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Srinivas</arg>
+</arguments>
+<assign>
+<var>${firstname}</var>
+</assign>
+<msg timestamp="20200628 09:18:07.059" level="INFO">${firstname} = Srinivas</msg>
+<status status="PASS" starttime="20200628 09:18:07.059" endtime="20200628 09:18:07.059"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${firstname}</arg>
+</arguments>
+<status status="PASS" starttime="20200628 09:18:07.060" endtime="20200628 09:18:07.060"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Kadiyala</arg>
+</arguments>
+<assign>
+<var>${lastname}</var>
+</assign>
+<msg timestamp="20200628 09:18:07.061" level="INFO">${lastname} = Kadiyala</msg>
+<status status="PASS" starttime="20200628 09:18:07.061" endtime="20200628 09:18:07.061"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${lastname}</arg>
+</arguments>
+<status status="PASS" starttime="20200628 09:18:07.062" endtime="20200628 09:18:07.062"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Tester</arg>
+</arguments>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200628 09:18:07.063" level="INFO">${title} = Tester</msg>
+<status status="PASS" starttime="20200628 09:18:07.063" endtime="20200628 09:18:07.063"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<status status="PASS" starttime="20200628 09:18:07.063" endtime="20200628 09:18:07.064"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>srinivasskc</arg>
+</arguments>
+<assign>
+<var>${twitterhandle}</var>
+</assign>
+<msg timestamp="20200628 09:18:07.065" level="INFO">${twitterhandle} = srinivasskc</msg>
+<status status="PASS" starttime="20200628 09:18:07.064" endtime="20200628 09:18:07.065"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${twitterhandle}</arg>
+</arguments>
+<status status="PASS" starttime="20200628 09:18:07.065" endtime="20200628 09:18:07.066"></status>
+</kw>
+<status status="PASS" starttime="20200628 09:18:07.056" endtime="20200628 09:18:07.066" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200628 09:18:05.053" endtime="20200628 09:18:07.069"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="LogToConsole">LogToConsole</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

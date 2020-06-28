@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200628 11:05:34.807" rpa="false">
+<suite id="s1" name="VariablesBasics" source="C:\development\robot-scripts\robot-framework-testautomationu\Tests\Chapter7\VariablesBasics.robot">
+<test id="s1-t1" name="Logging Variables">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n_</arg>
+</arguments>
+<status status="PASS" starttime="20200628 11:05:34.846" endtime="20200628 11:05:34.846"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>My Name is Srinivas. I am Software Tester. I am from Bangalore.</arg>
+</arguments>
+<status status="PASS" starttime="20200628 11:05:34.847" endtime="20200628 11:05:34.847"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>My Name is ${name}. I am ${job}. I am from ${place}.</arg>
+</arguments>
+<status status="PASS" starttime="20200628 11:05:34.848" endtime="20200628 11:05:34.849"></status>
+</kw>
+<status status="PASS" starttime="20200628 11:05:34.845" endtime="20200628 11:05:34.849" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200628 11:05:34.812" endtime="20200628 11:05:34.851"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="VariablesBasics">VariablesBasics</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
